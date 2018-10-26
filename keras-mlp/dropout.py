@@ -13,7 +13,7 @@ config = run.config
 config.optimizer = "adam"
 config.epochs = 50
 config.dropout = 0.4
-config.hidden_nodes = 100
+config.hidden_nodes = 150
 
 # load data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
